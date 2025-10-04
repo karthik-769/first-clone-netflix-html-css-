@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/img/bg.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    height: 100px;
+
+}
+
+nav img {
+    z-index: 10;
+    color: red;
+    position: relative;
+    top: 5 px;
+}
+
+nav .button {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.16);
+    padding: 3px 20px;
+    border-radius: 4px;
+    border: 0.01px solid white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+    padding: 6px 10px 6px 10px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.hero> :nth-child(2) {
+    font-size: 46PX;
+    font-weight: 900;
+}
+
+.hero> :nth-child(3) {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero> :nth-child(4) {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.btn-red {
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main input {
+    font-size: small;
+    font-weight: 400;
+    padding: 5px 125px 5px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.495);
+    margin: 2vw;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(50, 50, 50);
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.secimg {
+    position: relative;
+
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 23vw;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 32px;
+    text-align: center;
+}
+
+.faqbox {
+    width: 60vw;
+    background-color: #2d2d2d;
+    margin: 1vw auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 20px;
+}
+
+.faqbox :nth-child(1) {
+    color: white;
+    font-size: x-large;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.insec {
+    margin: 3vw;
+}
+
+.insec :nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.insec input {
+    font-size: small;
+    font-weight: 400;
+    padding: 5px 125px 5px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.495);
+    margin: 2vw;
+}
+
+
+.card {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.card .reson :nth-child(1) {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding:  1rem 0;
+ 
+}
+
+.card :nth-child(2) {
+    color: rgb(203, 200, 200);
+    font-size: 1rem;
+    padding: rem ;
+}
+
+
+.cards {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 20vw;
+    width: 30vw;
+    background-image: linear-gradient(to right, #4B0082, #8B008B);
+    border-radius:30px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  
+}
+.cardimg img{
+    width: 5rem;
+    position: relative;
+    bottom: -13rem;
+    left: 14rem;
+}
+
+.cardimg {
+    position: absolute;
+}
+
+
+
+
+footer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin: 34px auto;
+    gap: 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer a {
+    color: rgb(160, 158, 158);
+}
